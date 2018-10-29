@@ -48,6 +48,9 @@
 - (void)reloadData;
 
 
+/** Set value for scrollView bounces */
+- (void)setScrollViewBounces:(BOOL)bounces;
+
 /** Reloads and re-layouts the pages at the given indexes
  * @param indexes the indexes of the pages that should be reloaded
  * @param animated whether the reload should be animated

@@ -240,6 +240,11 @@
 	}
 }
 
+- (void)setScrollViewBounces:(BOOL)bounces
+{
+    self.scrollView.bounces = bounces;
+}
+
 - (void)navigateToPageAtIndex:(NSUInteger)pageIndex
 					 animated:(BOOL)animated
 				   completion:(void(^)())completion
